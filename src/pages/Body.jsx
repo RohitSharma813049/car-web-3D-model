@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Herosection from "../components/body/herosection";
 import Second from "../components/body/second";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import HeroSection from "../components/body/herosection";
 
 function Body() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function Body() {
 
   return (
     <div>
-      <Herosection />
+      <HeroSection/>
       <Second />
     </div>
   );
