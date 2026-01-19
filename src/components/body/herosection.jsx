@@ -28,10 +28,9 @@ function HeroSection() {
         {/* Lights */}
         <ambientLight intensity={0.6} />
         <directionalLight position={[10, 10, 5]} intensity={1.2} />
-<Stage environment="city" intensity={0.7} preset="rembrandt">
-  <CarModel url="/models/2020_honda_nsx_na1_blworks.glb" />
-</Stage>
-
+        <Stage environment="city" intensity={0.7} preset="rembrandt">
+          <CarModel url="/models/2020_honda_nsx_na1_lbworks.glb" />
+        </Stage>
       </Canvas>
 
       {/* Overlay Text & Buttons */}
