@@ -5,7 +5,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import { ToastContainer } from 'react-toastify'
-import Body from './pages/body'
+import Body from './pages/Body'
+
 
 
 function App() {
